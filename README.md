@@ -20,7 +20,7 @@ I am an aspiring web developer who creates websites using HTML, CSS, and Git.
 
 ## Contact
 
-Number: 0927*******
+GitHub: Ellaine0507
 
 ---
 
