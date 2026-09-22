@@ -1,27 +1,30 @@
 # My Personal Portfolio
 
-## Navigation
+This is my personal portfolio website created using HTML, CSS, and JavaScript.
 
-[About Me](#about) | [Projects](#projects) | [Contact](#contact)
+## About the Project
 
----
+This portfolio introduces who I am, my hobbies, background, and basic web development skills.
 
-## About Me
+## Technologies Used
 
-Hello! My name is Ellaine Grace Supas.
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
 
-I am a student who enjoys learning new skills and creating projects.
+## Features
 
-## My Projects
+- Profile photo
+- Personal introduction
+- Learn More section
+- Hobbies and background
+- Skills section
+- Simple JavaScript interaction
 
-This is my portfolio website.
+## Author
 
-I am an aspiring web developer who creates websites using HTML, CSS, and Git.
-
-## Contact
-
-GitHub: Ellaine0507 
-
----
+Ellaine Grace Supas
 
 © 2026 My Personal Portfolio

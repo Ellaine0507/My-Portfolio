@@ -1,102 +1,70 @@
-/* General */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff5f8;
-    color: #4a2633;
-    line-height: 1.6;
+font-family: Arial, sans-serif;
+background-color: #fff5f8;
+color: #4a2633;
+line-height: 1.6;
 }
 
-/* Navigation */
-nav {
-    background-color: #e91e63;
-    padding: 20px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ffd1e1;
-}
-
-/* Landing Page */
 .hero {
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
+min-height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 30px;
 }
 
 .hero h1 {
-    color: #d81b60;
-    font-size: 45px;
-    margin-bottom: 15px;
+color: #d81b60;
+font-size: 45px;
+margin-bottom: 15px;
 }
 
 .hero p {
-    max-width: 600px;
-    font-size: 18px;
+max-width: 600px;
+font-size: 18px;
 }
 
-/* Sections */
-section {
-    padding: 70px 20px;
-    text-align: center;
-}
-
-section h2 {
-    color: #d81b60;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-section p {
-    max-width: 700px;
-    margin: 0 auto 15px;
+.tagline {
+font-weight: bold;
+color: #c2185b;
+margin-top: 10px;
 }
 
 #profilePhoto {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #e91e63;
-    margin-bottom: 20px;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+object-fit: cover;
+border: 5px solid #e91e63;
+margin-bottom: 20px;
 }
 
-/* Projects */
-.project {
-    background-color: white;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(216, 27, 96, 0.15);
+.learn-more {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 25px;
+background-color: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
 }
 
-/* Contact */
-#contact {
-    background-color: #ffe4ed;
+.learn-more:hover {
+background-color: #c2185b;
 }
 
-/* Footer */
 footer {
-    background-color: #c2185b;
-    color: white;
-    text-align: center;
-    padding: 20px;
+background-color: #c2185b;
+color: white;
+text-align: center;
+padding: 20px;
 }
