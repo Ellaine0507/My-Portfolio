@@ -69,6 +69,15 @@ section p {
     margin: 0 auto 15px;
 }
 
+#profilePhoto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e91e63;
+    margin-bottom: 20px;
+}
+
 /* Projects */
 .project {
     background-color: white;
