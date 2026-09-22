@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -6,38 +7,87 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(104, 14, 58);
-    text-align: center;
-    margin: 40px;
+    background-color: #fff5f8;
+    color: #4a2633;
+    line-height: 1.6;
 }
 
+/* Navigation */
+nav {
+    background-color: #e91e63;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd1e1;
+}
+
+/* Landing Page */
 .hero {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-h1 {
-    color: rgb(58, 3, 54);
+    padding: 30px;
 }
 
-h2 {
-    color: rgb(21, 1, 26);
+.hero h1 {
+    color: #d81b60;
+    font-size: 45px;
+    margin-bottom: 15px;
 }
 
-p {
+.hero p {
+    max-width: 600px;
     font-size: 18px;
 }
 
-a {
-    color: white;
-    background-color: rgb(145, 93, 173);
-    padding: 10px;
-    margin: 5px;
-    text-decoration: none;
+/* Sections */
+section {
+    padding: 70px 20px;
+    text-align: center;
 }
 
-a:hover {
-    background-color: rgb(118, 73, 143);
+section h2 {
+    color: #d81b60;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 700px;
+    margin: 0 auto 15px;
+}
+
+/* Projects */
+.project {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(216, 27, 96, 0.15);
+}
+
+/* Contact */
+#contact {
+    background-color: #ffe4ed;
+}
+
+/* Footer */
+footer {
+    background-color: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
