@@ -80,6 +80,36 @@ max-width: 700px;
 margin: 0 auto 15px;
 }
 
+#skills {
+background-color: #ffe4ed;
+}
+
+.skills-container {
+max-width: 1000px;
+margin: 30px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.skill-card {
+background-color: white;
+width: 280px;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(216, 27, 96, 0.15);
+}
+
+.skill-card h3 {
+color: #d81b60;
+margin-bottom: 10px;
+}
+
+.skill-card p {
+font-size: 15px;
+}
+
 
 .learn-more:hover {
 background-color: #c2185b;
